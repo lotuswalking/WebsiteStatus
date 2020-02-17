@@ -1,7 +1,11 @@
 ﻿日志方法:
+
 Serilog.aspNetCore
+
 Serilog.sink.file
-再program.cs中
+
+在program.cs中
+
 1.增加引用using Serilog;
 2.Log.Logger = new LoggerConfiguration()
                 .MinimumLevel.Debug()
